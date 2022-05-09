@@ -11,7 +11,8 @@ describe('first test', async () => {
         const btnActive = '.filters > li:nth-child(2)'
         const btnAll = '.filters > li:nth-child(1)'
         const btnClearCompleted = '.clear-completed'
-        
+
+        tests new branch
         async function clickBtn(value) {
               await $(value).click()
               await browser.pause(1000)
